@@ -1,0 +1,30 @@
+.dropdown-toggle::after {
+    display: none;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-check .checked {
+    text-decoration: line-through;   
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls span.active {
+    color: #3C87FF;
+}
+
+.filters span {
+    margin-right: 5px;
+    font-size: 15px;
+    color: #ccc;
+    cursor: pointer;
+}
